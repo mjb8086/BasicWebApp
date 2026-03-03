@@ -25,6 +25,8 @@ public class IndexModel : PageModel
         ClientOs = DetermineOperatingSystem(userAgent);
         ClientBrowser = DetermineBrowser(userAgent);
         ClientColor = GetColorForOs(ClientOs);
+        
+        _logger.LogInformation("Frontpage Loaded");
     }
 
     private static string DetermineOperatingSystem(string userAgent)

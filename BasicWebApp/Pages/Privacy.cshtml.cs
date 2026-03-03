@@ -14,5 +14,6 @@ public class PrivacyModel : PageModel
 
     public void OnGet()
     {
+        _logger.LogWarning("Privacy Loaded");
     }
 }
