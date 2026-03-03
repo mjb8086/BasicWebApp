@@ -6,11 +6,15 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learnt about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>With ASP.NET Core, You Score.</p>
 </div>
 
-<div class="mt-4">
-    <h2>Your Details</h2>
+<div>
+    <h2>This is a simple, sample app. It uses the rather straightforward ASP.NET RazorR pages.</h2>
+</div>
+
+<h4 class="fw-bold" style="margin-top: 30px">Who Are You?</h4>
+<div class="mt-0" id="details">
     <p><strong>IP Address:</strong> @Model.ClientIp</p>
     <div style="color:@Model.ClientColor">
         <p><strong>Operating System:</strong> @Model.ClientOs</p>
@@ -18,6 +22,3 @@
     </div>
 </div>
 
-<div>
-    <h2>This is a simple, sample app. It uses the rather straightforward ASP.NET RazorR pages.</h2>
-</div>

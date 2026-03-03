@@ -9,8 +9,12 @@
 </div>
 
 <div class="mt-4">
-    <h3>03 Mar 2026, Nothing To Report</h3>
-    <p>I wish there was, but there wasn't. Wars and stuff are happening elsewhere. Be prepared.</p>
+    @foreach (var news in Model.newsItems)
+    {
+        <h3 class="border-bottom border-light">@news.Title</h3>
+        <p>@news.Story</p>
+        <div class="text-sm-end">@news.When</div>
+    }
 </div>
 
 <div>

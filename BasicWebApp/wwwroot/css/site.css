@@ -19,4 +19,81 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #000;
+  color: #0f0;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0 0 4px rgba(0, 255, 0, 0.4);
+}
+
+a, .nav-link {
+  color: #39ff14;
+}
+
+a:hover, .nav-link:hover {
+  color: #9eff7a;
+}
+
+.navbar, .card, .modal-content, .dropdown-menu {
+  background-color: #010101 !important;
+  border: 1px solid #0f0;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #39ff14 !important;
+}
+
+.btn-primary, .btn-secondary, .btn {
+  background-color: #003b00;
+  border: 1px solid #0f0;
+  color: #0f0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.btn-primary:hover, .btn-secondary:hover, .btn:hover {
+  background-color: #006400;
+  color: #9eff7a;
+}
+
+.form-control, .form-select {
+  background-color: #020202;
+  border: 1px solid #0f0;
+  color: #0f0;
+}
+
+.form-control:focus, .form-select:focus {
+  background-color: #050505;
+  color: #9eff7a;
+  border-color: #39ff14;
+  box-shadow: 0 0 10px rgba(57, 255, 20, 0.6);
+}
+
+table {
+  color: #0f0;
+}
+
+table thead {
+  background-color: #001900;
+}
+
+hr {
+  border-color: #0f0;
+}
+
+code, pre {
+  background-color: #001a00;
+  color: #39ff14;
+  border: 1px solid #0f0;
+}
+
+div#details {
+  color: black;
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 2px;
+  max-width: 500px;
+}
+
+#details p {
+  margin-bottom: 0;
 }
