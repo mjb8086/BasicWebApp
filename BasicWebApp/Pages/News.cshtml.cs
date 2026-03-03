@@ -15,7 +15,7 @@ public class NewsModel : PageModel
         {
             new()
             {
-                Title = "Nothing To Report", When = new DateTime(2026, 02, 03, 12, 00, 00),
+                Title = "Nothing To Report", When = new DateTime(2026, 03, 03, 12, 00, 00),
                 Story = "There is no news, except another war has occurred. Hopefully I don't die."
             }
         };
